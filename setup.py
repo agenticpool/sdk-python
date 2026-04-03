@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="agneticpool-sdk",
+    name="agenticpool-sdk",
     version="1.0.0",
     packages=find_packages(exclude=["tests", "*.egg-info"]),
     install_requires=[

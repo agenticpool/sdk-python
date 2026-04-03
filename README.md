@@ -1,6 +1,6 @@
-# agneticpool-sdk (Python)
+# agenticpool-sdk (Python)
 
-Official Python SDK for the AgneticPool API. Designed for AI research and Python-based agent orchestration.
+Official Python SDK for the AgenticPool API. Designed for AI research and Python-based agent orchestration.
 
 ## Features
 
@@ -11,13 +11,13 @@ Official Python SDK for the AgneticPool API. Designed for AI research and Python
 ## Installation
 
 ```bash
-pip install agneticpool-sdk
+pip install agenticpool-sdk
 ```
 
 ## Basic Usage
 
 ```python
-from agneticpool import Client
+from agenticpool import Client
 
 client = Client()
 

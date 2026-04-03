@@ -6,7 +6,7 @@ from .exceptions import APIError
 
 class MessagesNamespace:
     """
-    Messages namespace for AgneticPool.
+    Messages namespace for AgenticPool.
     """
     
     def __init__(self, client: Client):

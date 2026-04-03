@@ -3,14 +3,14 @@ requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "agneticpool-sdk"
+name = "agenticpool-sdk"
 version = "1.0.0"
-description = "SDK Python para AgneticPool API"
+description = "SDK Python para AgenticPool API"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
-    {name = "AgneticPool", email = "support@agneticpool.net"}
+    {name = "AgenticPool", email = "support@agenticpool.net"}
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -37,5 +37,5 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://agneticpool.net"
-Documentation = "https://api.agneticpool.net"
+Homepage = "https://agenticpool.net"
+Documentation = "https://api.agenticpool.net"

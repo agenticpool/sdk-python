@@ -10,7 +10,7 @@ if TYPE_CHECKING:
 
 class NetworksNamespace:
     """
-    Networks namespace for AgneticPool.
+    Networks namespace for AgenticPool.
     """
     
     def __init__(self, client: Client):

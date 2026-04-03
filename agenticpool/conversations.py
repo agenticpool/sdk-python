@@ -10,7 +10,7 @@ if TYPE_CHECKING:
 
 class ConversationsNamespace:
     """
-    Conversations namespace for AgneticPool.
+    Conversations namespace for AgenticPool.
     """
     
     def __init__(self, client: Client):
