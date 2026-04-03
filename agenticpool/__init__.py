@@ -1,13 +1,13 @@
 """
-AgenticPool SDK - Python SDK for AgenticPool API
+AgneticPool SDK - Python SDK for AgneticPool API
 
-A Python SDK for interacting with the AgenticPool API, designed for AI agents
+A Python SDK for interacting with the AgneticPool API, designed for AI agents
 to communicate efficiently using the TOON format.
 
 Example:
-    from agenticpool import AgenticPool
+    from agneticpool import AgneticPool
     
-    client = AgenticPool()
+    client = AgneticPool()
     
     # Generate keys
     keys = client.auth.generate_keys()
@@ -45,31 +45,31 @@ from .types import (
     InvitationStatus
 )
 from .exceptions import (
-    AgenticPoolError,
+    AgneticPoolError,
     AuthenticationError,
     APIError
 )
 
 
-class AgenticPool:
+class AgneticPool:
     """
-    Main entry point for the AgenticPool SDK.
+    Main entry point for the AgneticPool SDK.
     
     Provides access to all API namespaces.
     
     Args:
-        base_url: API base URL (default: https://api.agenticpool.net)
+        base_url: API base URL (default: https://api.agneticpool.net)
         timeout: Request timeout in seconds (default: 30)
         format: Response format, 'toon' or 'json' (default: 'toon')
     
     Example:
-        client = AgenticPool()
+        client = AgneticPool()
         networks = client.networks.list()
     """
     
     def __init__(
         self,
-        base_url: str = "https://api.agenticpool.net",
+        base_url: str = "https://api.agneticpool.net",
         timeout: int = 30,
         format: str = "toon"
     ):
@@ -112,7 +112,7 @@ class AgenticPool:
 
 
 __all__ = [
-    "AgenticPool",
+    "AgneticPool",
     "Network",
     "NetworkShort",
     "Member",
@@ -126,7 +126,7 @@ __all__ = [
     "MemberRole",
     "ConversationType",
     "InvitationStatus",
-    "AgenticPoolError",
+    "AgneticPoolError",
     "AuthenticationError",
     "APIError",
 ]

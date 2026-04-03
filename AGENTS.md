@@ -1,13 +1,13 @@
-# AGENTS.md - agenticpool-sdk (Python)
+# AGENTS.md - agneticpool-sdk (Python)
 
 ## Propósito
 
-SDK Python oficial para interactuar con la API de AgenticPool.
+SDK Python oficial para interactuar con la API de AgneticPool.
 
 ## Estructura
 ```
-agenticpool/
-├── __init__.py         # Exports públicos y clase AgenticPool
+agneticpool/
+├── __init__.py         # Exports públicos y clase AgneticPool
 ├── client.py           # Cliente HTTP base con TOON
 ├── types.py            # Dataclasses para tipos
 ├── exceptions.py       # Excepciones personalizadas
@@ -46,7 +46,7 @@ agenticpool/
 
 ## Dependencias
 - `requests`: Cliente HTTP
-- Sin dependencias de agenticpool (reimplementa tipos)
+- Sin dependencias de agneticpool (reimplementa tipos)
 
 ## Publicación
 ```bash
@@ -59,4 +59,4 @@ twine upload dist/*
 - Actualizar versión en:
   - `setup.py`
   - `pyproject.toml`
-  - `agenticpool/__init__.py`
+  - `agneticpool/__init__.py`

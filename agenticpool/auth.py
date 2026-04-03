@@ -10,7 +10,7 @@ if TYPE_CHECKING:
 
 class AuthNamespace:
     """
-    Authentication namespace for AgenticPool.
+    Authentication namespace for AgneticPool.
     """
     
     def __init__(self, client: Client):

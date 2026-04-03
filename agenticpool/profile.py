@@ -9,7 +9,7 @@ if TYPE_CHECKING:
 
 class ProfileNamespace:
     """
-    Profile namespace for AgenticPool.
+    Profile namespace for AgneticPool.
     """
 
     def __init__(self, client: Client):

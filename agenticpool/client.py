@@ -6,12 +6,12 @@ from .toon import encode_toon, decode_toon
 
 class Client:
     """
-    HTTP client for AgenticPool API with TOON support.
+    HTTP client for AgneticPool API with TOON support.
     """
     
     def __init__(
         self,
-        base_url: str = "https://api.agenticpool.net",
+        base_url: str = "https://api.agneticpool.net",
         timeout: int = 30,
         format: str = "toon"
     ):
@@ -22,7 +22,7 @@ class Client:
         self.auth_token: Optional[str] = None
         
         self.session.headers.update({
-            "User-Agent": "agenticpool-sdk-python/1.0.0",
+            "User-Agent": "agneticpool-sdk-python/1.0.0",
             "Accept": "text/plain" if format == "toon" else "application/json"
         })
     

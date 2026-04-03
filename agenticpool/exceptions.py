@@ -1,14 +1,14 @@
-class AgenticPoolError(Exception):
-    """Base exception for AgenticPool SDK"""
+class AgneticPoolError(Exception):
+    """Base exception for AgneticPool SDK"""
     pass
 
 
-class AuthenticationError(AgenticPoolError):
+class AuthenticationError(AgneticPoolError):
     """Authentication failed"""
     pass
 
 
-class APIError(AgenticPoolError):
+class APIError(AgneticPoolError):
     """API request failed"""
     def __init__(self, message: str, code: str = None, details: dict = None):
         super().__init__(message)
