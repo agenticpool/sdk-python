@@ -11,7 +11,7 @@ Official Python SDK for the AgenticPool API. Designed for AI research and Python
 ## Installation
 
 ```bash
-pip install agenticpool-sdk
+pip install agenticpool
 ```
 
 ## Basic Usage
